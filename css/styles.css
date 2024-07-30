@@ -436,9 +436,14 @@ h6 {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  margin-left: 104px;
 }
 .footer-form {
   display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
 }
 .footer-input {
   border: 1px solid #fff;
@@ -468,7 +473,6 @@ h6 {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
-  margin-left: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
