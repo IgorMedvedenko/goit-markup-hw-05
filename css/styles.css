@@ -426,6 +426,58 @@ h6 {
 .footer .icon-link:focus {
   background-color: #31d0aa;
 }
+.subscribe-holder {
+  margin-left: auto;
+}
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-form {
+  display: flex;
+}
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 8px 16px;
+  outline: transparent;
+  background: transparent;
+}
+.footer-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.foter-btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
+
 /*---Modal---*/
 
 .backdrop {
@@ -434,6 +486,14 @@ h6 {
   position: fixed;
   top: 0;
   background: rgba(46, 47, 66, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 .modal {
   width: 408px;
@@ -524,10 +584,11 @@ h6 {
   color: #8e8f99;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
 }
 .checkbox .label-title {
   justify-content: center;
+  align-items: center;
 }
 .modal-field-wrap {
   position: relative;
@@ -580,8 +641,5 @@ h6 {
 .modal-check:checked + .label-title .mask-checkbox {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
-}
-.mask-icon {
   fill: #f4f4fd;
 }
