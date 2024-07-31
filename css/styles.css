@@ -454,12 +454,16 @@ h6 {
   padding: 8px 16px;
   outline: transparent;
   background: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 .footer-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 .foter-btn {
   border-radius: 4px;
@@ -467,6 +471,7 @@ h6 {
   width: 165px;
   height: 40px;
   background: #4d5ae5;
+  min-width: 165px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
