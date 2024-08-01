@@ -406,6 +406,9 @@ h6 {
 .footer .logo {
   margin-bottom: 16px;
 }
+.social-icon {
+  margin: 0 auto;
+}
 .social-title {
   font-weight: 500;
   font-size: 16px;
@@ -427,7 +430,7 @@ h6 {
   background-color: #31d0aa;
 }
 .subscribe-holder {
-  margin-left: auto;
+  margin: 0 auto;
 }
 .subscribe-title {
   font-weight: 500;
